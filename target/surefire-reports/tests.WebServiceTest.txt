@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: tests.WebServiceTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 7.107 s <<< FAILURE! - in tests.WebServiceTest
+tests.WebServiceTest.trelloTest  Time elapsed: 7.075 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+JSON path id doesn't match.
+Expected: a collection with size <3>
+  Actual: <[60c51e83b52d6e2d44153adb]>
+
+	at tests.WebServiceTest.trelloTest(WebServiceTest.java:52)
+
